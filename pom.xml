@@ -13,13 +13,11 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>user-service</name>
     <description>user-service</description>
-
     <properties>
         <java.version>25</java.version>
         <mapstruct.version>1.6.3</mapstruct.version>
         <spring-cloud.version>2025.1.0</spring-cloud.version>
     </properties>
-
 
     <dependencies>
         <dependency>
@@ -72,7 +70,6 @@
         </dependency>
     </dependencies>
 
-
     <dependencyManagement>
         <dependencies>
             <dependency>
@@ -118,5 +115,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>
